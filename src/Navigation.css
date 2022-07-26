@@ -1,0 +1,28 @@
+ .menu {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .elem {
+    margin: 10px 35px 10px 35px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    opacity: 0.8;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    color: black;
+  }
+  
+  .elem:hover {
+    color: #c63;
+    cursor: pointer;
+  }
+
+  @media all and (max-width: 480px) {
+    .menu { flex-direction: column; }
+  }

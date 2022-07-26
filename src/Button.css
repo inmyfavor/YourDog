@@ -1,0 +1,67 @@
+  .button {
+    background-color: #c63;
+    color: #ffc;
+    border: none;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-weight: bold;
+    opacity: 0.8;
+    box-shadow: 0 0 15px #c99;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    opacity: 1;
+  }
+
+  .buttonInput {
+    background-color: #c63;
+    color: #ffc;
+    border: none;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-weight: bold;
+    opacity: 0.8;
+    margin: 1em;
+    cursor: pointer;
+  }
+
+  .buttonInput:hover {
+    opacity: 1;
+  }
+
+  .input {
+    box-sizing: border-box;
+    height: calc(2rem + 2px);
+    font-size: 14px;
+    font-family: inherit;
+    width: 70%;
+    margin: 0.5em;
+    padding-left: 10px;
+  }
+
+  .inputElements {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  @media all and (min-width: 500px) {
+    .button {
+      margin-left: 60px;
+      margin-top: 60px;
+    }
+  }
+
+  @media all and (max-width: 500px) {
+    .button {
+      justify-content: center;
+      margin-top: 40px;
+    }
+  }

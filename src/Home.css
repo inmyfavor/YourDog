@@ -1,0 +1,60 @@
+  @font-face {
+    font-family: "etna";
+    src: url("C:\Users\Mila\Desktop\Coding\JS\project\public\MafraDisplay-BoldItalic.ttf") format("opentype");
+    }
+
+  .yourDog {
+    margin: 0;
+    font-family: "etna";
+  }
+  
+  .mainPageDescription {
+    margin: 0;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-weight: bold;
+    opacity: 0.8;
+  } 
+
+  .corgi {
+    padding-top: 20px;
+    width: 58%;
+    height: 58%;
+  }
+
+  .parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .block {
+    padding-bottom: 50px;
+  }
+
+  @media all and (min-width: 500px) {
+    .yourDog {
+      text-align: left;
+      font-size: 500%;
+    }
+    .mainPageDescription {
+      text-align: left;
+      padding-left: 20px;
+    }
+  }
+
+  @media all and (max-width: 500px) {
+    .yourDog {
+      text-align: center;
+      font-size: 250%;
+    }
+    .mainPageDescription {
+        text-align: center;
+        font-size: 60%;
+        padding-top: 10px;
+    }
+    .corgi {
+      padding-bottom: 20px;
+    }
+  }
